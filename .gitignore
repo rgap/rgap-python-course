@@ -1,8 +1,15 @@
-# macOS
+# Python cache files
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+
+# macOS system files
 .DS_Store
 
-# vscode
-.vscode
-
-# Temporal folder
-/tmp
+# temporal folder
+/TMP
