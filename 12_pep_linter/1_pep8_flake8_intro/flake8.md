@@ -1,10 +1,8 @@
-# Linting with Flake8 and Formatting with Black
+# Linting with Flake8
 
 ## Introduction
 
 Linting is an essential part of maintaining code quality, ensuring that your code adheres to style guidelines like PEP 8. Flake8 is a popular linter that checks Python code for various issues, including style violations, syntax errors, and other problematic patterns.
-
-Formatting tools like Black are also crucial for keeping your code consistent and readable. Black is an "opinionated" formatter that automatically formats your code to follow a specific style, and it's included by default in Visual Studio Code.
 
 ## Historical Context
 
@@ -12,9 +10,7 @@ Formatting tools like Black are also crucial for keeping your code consistent an
 
 Flake8 was first released in 2010 by Tarek Ziadé and has since become one of the most widely used linters in the Python community. It is built on top of PyFlakes, pycodestyle (formerly known as pep8), and McCabe, combining these tools to provide comprehensive code checks.
 
-### Black
-
-Black was introduced by Łukasz Langa in 2018 and quickly gained popularity due to its simplicity and "no-config" approach. By enforcing a consistent style, Black helps reduce debates over code formatting in teams, making code reviews more focused on logic and functionality rather than style.
+Other linters: pylint
 
 ## Using Flake8
 
