@@ -1,0 +1,17 @@
+%YAML 1.2
+# The %YAML directive specifies the version of YAML being used in the document.
+# In this case, it's version 1.2. This ensures that the YAML parser understands
+# which version of the YAML specification the document adheres to.
+
+---
+# The '---' indicates the start of a new YAML document. It is optional but can be
+# used to separate multiple YAML documents within a single file. In this example,
+# it marks the beginning of the application configuration.
+
+# Application configuration
+# This section provides configuration settings for an application.
+application:
+  name: "SimpleApp"
+  # The 'name' key specifies the name of the application.
+  version: 1.0
+  # The 'version' key specifies the current version of the application.

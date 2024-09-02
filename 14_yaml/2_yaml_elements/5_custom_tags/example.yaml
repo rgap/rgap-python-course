@@ -1,0 +1,4 @@
+event:
+  name: "Conference"
+  registration_deadline: !datetime "2024-08-31T23:59:59"
+  location: "New York"

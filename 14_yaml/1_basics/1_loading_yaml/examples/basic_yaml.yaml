@@ -1,0 +1,7 @@
+# A basic YAML example
+name: John Doe
+age: 30
+languages:
+  - Python
+  - JavaScript
+  - YAML
