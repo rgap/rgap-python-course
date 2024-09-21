@@ -1,9 +1,0 @@
-# YAML 1.0 example
-person:
-  name: John Doe
-  age: 30
-  languages: [Python, JavaScript, YAML]
-
-# Anchors and aliases
-backend_language: &language Python
-preferred_language: *language

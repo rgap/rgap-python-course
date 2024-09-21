@@ -1,6 +1,0 @@
-# Database configuration
-database:
-  host: "localhost"   # Database host
-  port: 5432          # Database port (PostgreSQL default port)
-  username: "admin"   # Database username
-  password: "secret"  # Database password
